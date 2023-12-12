@@ -44,3 +44,11 @@ This script is designed to re-enable the security features that were disabled by
 
    ```powershell
    .\EnableSecurityFeatures.ps1
+
+
+   
+## License
+
+This script is part of the [Windows Security Features Management](README.md) project and is licensed under the [MIT License](LICENSE).
+
+
