@@ -23,3 +23,24 @@ This script is designed to disable specific security features on a Windows syste
 
    ```powershell
    .\DisableSecurityFeatures.ps1
+# EnableSecurityFeatures.ps1
+
+This script is designed to re-enable the security features that were disabled by `DisableSecurityFeatures.ps1`. It includes the following actions:
+
+1. **Windows Defender Real-time Protection:**
+   - Re-enables real-time monitoring for Windows Defender.
+
+2. **Windows Firewall:**
+   - Enables the Windows Firewall to restore network filtering functionality.
+
+3. **Windows Update:**
+   - Sets the Windows Update service back to Manual mode and starts the service.
+
+## Usage
+
+1. Open PowerShell as an administrator.
+2. Navigate to the directory containing the scripts.
+3. Run the following command to enable security features:
+
+   ```powershell
+   .\EnableSecurityFeatures.ps1
